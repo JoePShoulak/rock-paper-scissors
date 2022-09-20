@@ -51,7 +51,7 @@ function updateScore(result) {
 
     winsSpan.innerHTML = playerWins;
     lossesSpan.innerHTML = playerLosses;
-
+    
     alert(`You ${result}! You have ${playerWins} wins and ${playerLosses} losses.`)
 }
 
